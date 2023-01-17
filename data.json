@@ -1,4 +1,19 @@
 {
     "firstName":"Mayank",
-    "lastName":"Trivedi"
+    "lastName":"Trivedi",
+    "contacts":{
+        "mobileNumber":"8826334458",
+        "alternativeMobileNumber":"9929479458",
+        "emailId":"mayank.trivedi58@gmail.com",
+        "linkedIn":"https://www.linkedin.com/in/mayank-trivedi-6956487a/",
+        "githut":"https://github.com/mayanktrivedi"
+    },
+    "skills":[
+        {
+            "name":"Java"
+        }
+    ],
+    "experiences":[
+
+    ]
 }
