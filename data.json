@@ -6,25 +6,29 @@
         "alternativeMobileNumber":"9929479458",
         "emailId":"mayank.trivedi58@gmail.com",
         "linkedIn":"https://www.linkedin.com/in/mayank-trivedi-6956487a/",
-        "githut":"https://github.com/mayanktrivedi"
+        "github":"https://github.com/mayanktrivedi"
     },
     "skills":[
-        {
-            "name":"Java"
-        }
+        {"name":"Java"},
+        {"name":"JavaScript"},
+        {"name":"React"},
+        {"name":"Node.js"},
+        {"name":"Python"},
+        {"name":"SQL"},
+        {"name":"Git"},
+        {"name":"AWS"}
     ],
     "experiences":[
         {
-            "company":"",
+            "company":"Your Company Name",
             "roles":[
                 {
-                    "from":"",
-                    "to":"",
-                    "role":"",
-                    "responsibilities":""
+                    "from":"Jan 2022",
+                    "to":"Present",
+                    "role":"Software Developer",
+                    "responsibilities":"Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver high-quality software solutions."
                 }
             ]
         }
-
     ]
 }
