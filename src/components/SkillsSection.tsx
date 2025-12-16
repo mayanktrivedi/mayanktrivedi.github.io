@@ -30,7 +30,7 @@ const skillCategories: SkillCategory[] = [
 
 const SkillsSection = () => {
   return (
-    <section className="py-16 px-6 bg-gradient-subtle">
+    <section id="skills" className="py-16 px-6 bg-gradient-subtle">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-foreground animate-fade-in">Skills</h2>
         <div className="grid gap-8 md:grid-cols-2">

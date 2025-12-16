@@ -36,7 +36,7 @@ const projects: Project[] = [
 
 const ProjectsSection = () => {
   return (
-    <section className="py-16 px-6 bg-card">
+    <section id="projects" className="py-16 px-6 bg-card">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-foreground animate-fade-in">Featured Projects</h2>
         <div className="grid gap-6 md:grid-cols-1">
