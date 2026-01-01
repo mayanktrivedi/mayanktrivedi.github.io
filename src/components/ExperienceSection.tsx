@@ -13,7 +13,7 @@ interface Experience {
 const experiences: Experience[] = [
   {
     title: "Staff Software Engineer - GenAI",
-    company: "CBA Services Ltd.",
+    company: "CBA India Services Ltd.",
     period: "2021 - Present",
     description: "Leading the development of core product features and mentoring junior developers.",
     achievements: [
