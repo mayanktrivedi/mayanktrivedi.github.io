@@ -19,7 +19,7 @@ const education: Education[] = [
 
 const EducationSection = () => {
   return (
-    <section className="py-16 px-6 bg-card">
+    <section id="educations" className="py-16 px-6 bg-card">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-foreground animate-fade-in">Education</h2>
         <div className="space-y-6">

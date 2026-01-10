@@ -29,7 +29,7 @@ const ResumeHeader = () => {
 								onClick={(e) => scrollToId(e, "about")}
 								className="text-lg font-bold text-primary-foreground tracking-tight"
 							>
-								<span className="uppercase">Mayank@Dev</span>
+								<span className="">MayankTrivedi@Dev</span>
 							</a>
 						</div>
 
@@ -58,19 +58,19 @@ const ResumeHeader = () => {
 								>
 									SKILLS
 								</a>
-								<a
+								{/* <a
 									href="#projects"
 									onClick={(e) => scrollToId(e, "projects")}
 									className="hover:text-primary-foreground transition"
 								>
 									PROJECTS
-								</a>
+								</a> */}
 								<a
-									href="#contacts"
-									onClick={(e) => scrollToId(e, "contacts")}
+									href="#educations"
+									onClick={(e) => scrollToId(e, "educations")}
 									className="hover:text-primary-foreground transition"
 								>
-									CONTACTS
+									EDUCATIONS
 								</a>
 							</div>
 
@@ -131,12 +131,19 @@ const ResumeHeader = () => {
 							>
 								SKILLS
 							</a>
-							<a
+							{/* <a
 								href="#projects"
 								onClick={(e) => scrollToId(e, "projects")}
 								className="block py-2 px-2 rounded hover:bg-primary-foreground/10 uppercase"
 							>
 								PROJECTS
+							</a> */}
+							<a
+								href="#educations"
+								onClick={(e) => scrollToId(e, "educations")}
+								className="block py-2 px-2 rounded hover:bg-primary-foreground/10 uppercase"
+							>
+								EDUCATIONS
 							</a>
 							<a
 								href="#contacts"
@@ -155,7 +162,7 @@ const ResumeHeader = () => {
 				{/* Avatar above the name. Put an image at /avatar.jpg in the public folder to show your photo. */}
 				<div className="flex justify-center mb-6 animate-fade-in stagger-0">
 					<Avatar className="h-28 w-28 ring-4 ring-primary-foreground/20 shadow-lg">
-						<AvatarImage src="/avatar.svg" alt="Mayank Trivedi" />
+						<AvatarImage src="/profile.png" alt="Mayank Trivedi" />
 						<AvatarFallback>MT</AvatarFallback>
 					</Avatar>
 				</div>
